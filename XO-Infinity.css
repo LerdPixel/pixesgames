@@ -1,0 +1,73 @@
+.circle{
+    width: 25px;
+    height: 25px;
+    fill:black;
+    stroke:black;
+    stroke-width:1;
+    fill: white;
+    stroke: black;
+    stroke-width: 4px;
+}
+.squarediv{
+    display: inline-block;
+
+}
+.square{
+    fill: black;
+    stroke: black;
+    stroke-width: 1;
+    width: 25px;
+    height: 25px;
+}
+table {
+    margin: 0;
+}
+table.field td {
+    width: 30px;
+    height: 30px;
+    border: black 1px solid;
+    text-align: center;
+    border-color: red;
+}
+@media screen and (min-width: 800px) {
+    table.field td {
+        width: 40px;
+        height: 40px;
+    }
+    .circle{
+        width: 20px;
+        height: 20px;
+    }
+    .square{
+        width: 20px;
+        height: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    table.field td {
+        width: 50px;
+        height: 50px;
+    }
+    .circle{
+        width: 25px;
+        height: 25px;
+    }
+    .square{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media screen and (min-width: 2000px) {
+    table.field td {
+        width: 70px;
+        height: 70px;
+    }
+    .circle{
+        width: 35px;
+        height: 35px;
+    }
+    .square{
+        width: 28px;
+        height: 28px;
+    }
+}

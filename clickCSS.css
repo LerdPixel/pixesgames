@@ -1,0 +1,56 @@
+.rain {
+    background-color: #ffff00;
+    font-size: 25px;
+    outline: none;
+    border-color: #ff8c00;
+}
+.rcolomn {
+    vertical-align: top;
+}
+.bob {
+    text-align: right;
+    text-decoration: none;
+    font-size: 40px;
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+}
+.bob:hover {background-color: rgb(151, 153, 151)}
+.inputfield {
+    vertical-align: center;
+}
+.back {
+    text-align: right;
+    margin: 0 0 50px;
+
+}
+.container {
+    text-align: center;
+}
+.but {
+    background-color: #4682b4;
+    border: none;
+    border-radius: 10px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 96px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 60px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: red/*#3e8e41*/}
+
+.button:active {
+  background-color: red;/*#3e8e41;*/
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

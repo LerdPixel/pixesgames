@@ -1,0 +1,15 @@
+{
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "ejs-locals": "^1.0.2",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "underscore": "^1.9.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

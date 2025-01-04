@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="clickCSS.css" rel="stylesheet">
+<script src="jquery-3.4.1.js"></script>
+<script src="click-function100.js"></script>
+<title>ProClicker</title>
+</head>
+<body>
+<dir id="yy"></dir>
+<table width="100%">
+    <tr>
+    <td width="15%">
+        <div class="container">
+            <h1>Shop</h1>
+            <p>+1 power<button class="but" onclick="stronger(1)"><p id="cost1"></p></button></p>
+            <p>+5 power<button class="but" onclick="stronger(5)"><p id="cost3"></p></button></p>
+            <p>+20 power<button class="but" onclick="stronger(20)"><p id="cost4"></p></button></p>
+            <p>+100 power<button class="but" onclick="stronger(100)"><p id="cost5"></p></button></p>
+            <p>+500 power<button class="but" onclick="stronger(500)"><p id="cost8"></p></button></p>
+            <p>+1/sec<button class="but" onclick="timer(1)"><p id="cost2"></p></button></p>
+            <p>+10/sec<button class="but" onclick="timer(10)"><p id="cost6"></p></button></p>
+            <p>+100/sec<button class="but" onclick="timer(100)"><p id="cost7"></p></button></p>
+            <p>+1000/sec<button class="but" onclick="timer(1000)"><p id="cost12"></p></button></p>
+            <p><button class="rain" onclick="goldRain()">gold rain</button></p>
+        <!--    <font size="+2">Fortune</font>
+            <p title="You have +2% chance to multiply your power click">+2%<button type="button" onclick="plusf(2)"><p id="cost9">100</p></button></p>
+            <p title="���� ���� ������������ �� 1 ������, ���� ������� ����">+1 multiply<button type="button" onclick="plust(1)"><p id="cost10">100</p></button></p>-->
+        </div>
+
+    </td width="70%">
+    <td>
+        <div class="container">
+            <h3>Pix's games</h3><h2>Clicker</h2>
+            <button class="button" onclick="addd(giveClick)">click</button>
+            <h3><p id="demo">0</p></h3>
+        </div>
+    </td>
+    <td width="15%" class="rcolomn">
+        <div class="back"><a href="/" class="bob">back	&#10144;</a></div>
+        <div class="prob"></div>
+        <input type="text" id="code" name="code" class="inputfield">
+    </td>
+    </tr>
+</table>
+<script src="click-function100.js" alt="money"></script>
+</body>
+</html>

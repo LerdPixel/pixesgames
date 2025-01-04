@@ -1,0 +1,14 @@
+table.field td {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: solid black 2px;
+    text-align: center;
+    font-size: 100pt;
+}
+table.normal td {
+    background: yellow;
+}
+table.normal td.win {
+    background: orange;
+}
